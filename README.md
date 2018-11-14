@@ -1,2 +1,0 @@
-# kalkul
-Created with CodeSandbox
