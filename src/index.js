@@ -43,7 +43,6 @@ function toPostfix(str) {
             operators.length > 1 &&
             Weight(operators[operators.length - 1]) > 1
         ) {
-            alert("KE");
             postfix += str[a];
             operators.pop();
             operands.pop();
