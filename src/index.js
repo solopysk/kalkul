@@ -75,7 +75,6 @@ function toPostfix(str) {
     for (let c = 0; c < operators.length; c++) {
         postfix += operators[c];
     }
-    console.log(postfix);
 
     return solvePostfix(postfix);
 }
